@@ -12,7 +12,7 @@ public class CameraFollow : MonoBehaviour
     void Update()
     {
         Vector3 transformPosition = transform.position;
-        transformPosition.z = Target.position.z-13;
+        transformPosition.z = Target.position.z-18;
         transform.position = transformPosition;
     }
 }
